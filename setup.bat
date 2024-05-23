@@ -17,7 +17,7 @@ call venv\Scripts\activate.bat
 python -m pip install --upgrade pip
 
 :: Install dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt {keyboard, tk}
 
 :: Run the application
 python main.py
